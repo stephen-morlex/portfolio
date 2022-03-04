@@ -1,5 +1,5 @@
 <template>
-<div class="container w-full bg-white text-semibold text-blue-700 shadow-lg h-12 text-center p-6 space-x-12">
+<div class="container w-full text-semibold py-4 text-blue-800 shadow-lg h-14 text-center  space-x-12">
   <nuxt-link to="/">Home</nuxt-link>
   <nuxt-link to="/portfolio">Portfolio</nuxt-link>
   <nuxt-link to="/blog">Blog</nuxt-link>
@@ -9,7 +9,8 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+ 
 }
 </script>
 
