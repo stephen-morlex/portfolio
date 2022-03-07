@@ -1,22 +1,33 @@
 <template>
-<div class="container w-full bg-white text-semibold py-4 text-blue-800 shadow h-14 text-center  space-x-12">
-
+<div class="container mx-auto  px-40 w-full bg-white text-semibold py-4 text-blue-800 shadow h-14 text-center  space-x-12">
    <nuxt-link to="/">Home</nuxt-link>
    <nuxt-link to="/portfolio">Portfolio</nuxt-link>
    <nuxt-link to="/blog">Blog</nuxt-link>
    <nuxt-link to="/resume">Resume</nuxt-link>
+  <h1>Color mode: {{ $colorMode.value }}</h1>
   <div class="hidden"></div>
 
 </div>
 </template>
 
-<script>
-export default {
-  name: "Header",
+<script setup>
+import {useColorMode} from "@nuxtjs/color-mode/dist/runtime/composables";
 
-}
+const colorMode = useColorMode()
+console.log(colorMode.preference)
 </script>
 
-<style scoped>
-
+<style>
+body {
+  background-color: #fff;
+  color: rgba(0,0,0,0.8);
+}
+.dark-mode body {
+  background-color: #091a28;
+  color: #ebf4f1;
+}
+.sepia-mode body {
+  background-color: #f1e7d0;
+  color: #433422;
+}
 </style>
