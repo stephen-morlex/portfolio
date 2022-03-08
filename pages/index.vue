@@ -1,7 +1,10 @@
 <template>
  <div class="container mx-auto px-40 ">
     <!--   <h1 class="text-center text-xl  text-blue-600">Home page</h1>-->
-       <div class="flex items-center justify-between mt-12 ml-16 ">
+       <div class="flex items-center justify-between mt-12  ">
+         <div class=" bg-blue-300  rounded-full">
+           <img class="w-72 object-center  rounded-full " src="~/assets/dp.png" alt="hero-cover">
+         </div>
          <div class="w-full text-blue-900">
            <h1  class="text-7xl  font-semibold">
              Hello 🤚🏿
@@ -10,9 +13,6 @@
              I'm Stephen Victor
            </h1>
            <span class="text-4xl text-black capitalize font-semibold " >A Full Software Developer.</span>
-         </div>
-         <div class=" bg-blue-900  rounded-full">
-           <img class="w-full object-center h-full   " src="~/assets/smile.png" alt="hero-cover">
          </div>
        </div>
    <div class="mt-12">
