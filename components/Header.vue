@@ -4,17 +4,14 @@
    <nuxt-link to="/portfolio">Portfolio</nuxt-link>
    <nuxt-link to="/blog">Blog</nuxt-link>
    <nuxt-link to="/resume">Resume</nuxt-link>
-  <h1>Color mode: {{ $colorMode.value }}</h1>
+  <h1>Color mode: </h1>
   <div class="hidden"></div>
 
 </div>
 </template>
 
 <script setup>
-import {useColorMode} from "@nuxtjs/color-mode/dist/runtime/composables";
 
-const colorMode = useColorMode()
-console.log(colorMode.preference)
 </script>
 
 <style>
