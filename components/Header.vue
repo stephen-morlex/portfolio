@@ -4,7 +4,6 @@
    <nuxt-link to="/portfolio">Portfolio</nuxt-link>
    <nuxt-link to="/blog">Blog</nuxt-link>
    <nuxt-link to="/resume">Resume</nuxt-link>
-  <h1>Color mode: </h1>
   <div class="hidden"></div>
 
 </div>
