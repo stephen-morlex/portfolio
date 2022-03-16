@@ -9,10 +9,12 @@
            <h1  class="text-7xl  font-semibold">
              Hello 🤚🏿
            </h1>
-           <h1  class="text-5xl   font-semibold leading-normal">
-             I'm Stephen Victor
-           </h1>
-           <span class="text-4xl  font-semibold " >a Software Developer.</span>
+        <div class="text-5xl   font-semibold leading-normal">
+          <h1  class="">
+            I'm Stephen Victor
+          </h1>
+          <span class="text-4xl " >a Software Developer.</span>
+        </div>
          </div>
        </div>
    <div class="mt-12">
@@ -39,6 +41,15 @@
      </ul>
    </div> <div class="mt-12">
      <h1 class=" font-semibold text-xl underline pb-4   text-blue-900">Portfolio</h1>
+   <section>
+     <div class="grid grid-cols-2 gap-4">
+       <img class="h-52 object-cover w-52 rounded-md" src="~/assets/dp.png" alt="">
+       <div>
+         <h1 class="font-semibold text-xl underline pb-">lorem ipsum dolor sit ametr</h1>
+         <p>lorem ipsum dolor sit amet, consectetur sit amet, consectetur</p>
+       </div>
+     </div>
+   </section>
    </div>
    <div class="mt-12">
    <h1 class=" font-semibold text-xl underline pb-4   text-blue-900">Articles</h1>
