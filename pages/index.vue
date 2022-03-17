@@ -6,28 +6,69 @@
            <img class="w-72 object-center  rounded-full " src="~/assets/dp.png" alt="hero-cover">
          </div>
          <div class="w-full mt-20 text-blue-900">
-           <h1  class="text-7xl  font-semibold">
+           <h1  class="text-7xl mb-2  font-semibold">
              Hello 🤚🏿
            </h1>
-        <div class="text-5xl   font-semibold leading-normal">
+        <div class="text-5xl font-semibold ">
           <h1  class="">
             I'm Stephen Victor
           </h1>
-          <span class="text-4xl " >a Software Developer.</span>
+          <span class="text-3xl " >a Software Developer.</span>
         </div>
+        <ul class="flex items-center mt-4 text-blue-900 space-x-2">
+          <li>
+            <a href="https://twitter.com/stephen_morlex" target="_blank">
+                  <svg class="h-10 w-10 "  id="Layer_1" x="0px" y="0px" viewBox="0 0 500 500"  xml:space="preserve">
+                    <path id="XMLID_1_" class="st0" d="M425,141.5c-12.9,5.7-26.7,9.6-41.2,11.3c14.8-8.9,26.2-23,31.6-39.7  c-13.9,8.2-29.2,14.2-45.6,17.4c-13.1-14-31.8-22.7-52.4-22.7c-39.7,0-71.8,32.2-71.8,71.8c0,5.6,0.6,11.1,1.9,16.4  c-59.7-3-112.6-31.6-148-75c-6.2,10.6-9.7,22.9-9.7,36.1c0,24.9,12.7,46.9,31.9,59.8c-11.8-0.4-22.8-3.6-32.5-9c0,0.3,0,0.6,0,0.9  c0,34.8,24.8,63.8,57.6,70.4c-6,1.6-12.4,2.5-18.9,2.5c-4.6,0-9.1-0.5-13.5-1.3c9.1,28.5,35.7,49.3,67.1,49.9  c-24.6,19.3-55.5,30.7-89.2,30.7c-5.8,0-11.5-0.3-17.1-1c31.8,20.4,69.5,32.3,110.1,32.3c132.1,0,204.3-109.4,204.3-204.3  c0-3.1-0.1-6.2-0.2-9.3C403.2,168.5,415.4,155.9,425,141.5z"></path>
+               </svg>
+             </a>
+          </li>
+          <li>
+            <a href="https://github.com/stephen-morlex" target="_blank" >
+              <svg class="w-6 h-6 fill-current text-current" width="256px" height="250px" viewBox="0 0 256 250" version="1.1" preserveAspectRatio="xMidYMid">
+                <g>
+                  <path d="M128.00106,0 C57.3172926,0 0,57.3066942 0,128.00106 C0,184.555281 36.6761997,232.535542 87.534937,249.460899 C93.9320223,250.645779 96.280588,246.684165 96.280588,243.303333 C96.280588,240.251045 96.1618878,230.167899 96.106777,219.472176 C60.4967585,227.215235 52.9826207,204.369712 52.9826207,204.369712 C47.1599584,189.574598 38.770408,185.640538 38.770408,185.640538 C27.1568785,177.696113 39.6458206,177.859325 39.6458206,177.859325 C52.4993419,178.762293 59.267365,191.04987 59.267365,191.04987 C70.6837675,210.618423 89.2115753,204.961093 96.5158685,201.690482 C97.6647155,193.417512 100.981959,187.77078 104.642583,184.574357 C76.211799,181.33766 46.324819,170.362144 46.324819,121.315702 C46.324819,107.340889 51.3250588,95.9223682 59.5132437,86.9583937 C58.1842268,83.7344152 53.8029229,70.715562 60.7532354,53.0843636 C60.7532354,53.0843636 71.5019501,49.6441813 95.9626412,66.2049595 C106.172967,63.368876 117.123047,61.9465949 128.00106,61.8978432 C138.879073,61.9465949 149.837632,63.368876 160.067033,66.2049595 C184.49805,49.6441813 195.231926,53.0843636 195.231926,53.0843636 C202.199197,70.715562 197.815773,83.7344152 196.486756,86.9583937 C204.694018,95.9223682 209.660343,107.340889 209.660343,121.315702 C209.660343,170.478725 179.716133,181.303747 151.213281,184.472614 C155.80443,188.444828 159.895342,196.234518 159.895342,208.176593 C159.895342,225.303317 159.746968,239.087361 159.746968,243.303333 C159.746968,246.709601 162.05102,250.70089 168.53925,249.443941 C219.370432,232.499507 256,184.536204 256,128.00106 C256,57.3066942 198.691187,0 128.00106,0 Z M47.9405593,182.340212 C47.6586465,182.976105 46.6581745,183.166873 45.7467277,182.730227 C44.8183235,182.312656 44.2968914,181.445722 44.5978808,180.80771 C44.8734344,180.152739 45.876026,179.97045 46.8023103,180.409216 C47.7328342,180.826786 48.2627451,181.702199 47.9405593,182.340212 Z M54.2367892,187.958254 C53.6263318,188.524199 52.4329723,188.261363 51.6232682,187.366874 C50.7860088,186.474504 50.6291553,185.281144 51.2480912,184.70672 C51.8776254,184.140775 53.0349512,184.405731 53.8743302,185.298101 C54.7115892,186.201069 54.8748019,187.38595 54.2367892,187.958254 Z M58.5562413,195.146347 C57.7719732,195.691096 56.4895886,195.180261 55.6968417,194.042013 C54.9125733,192.903764 54.9125733,191.538713 55.713799,190.991845 C56.5086651,190.444977 57.7719732,190.936735 58.5753181,192.066505 C59.3574669,193.22383 59.3574669,194.58888 58.5562413,195.146347 Z M65.8613592,203.471174 C65.1597571,204.244846 63.6654083,204.03712 62.5716717,202.981538 C61.4524999,201.94927 61.1409122,200.484596 61.8446341,199.710926 C62.5547146,198.935137 64.0575422,199.15346 65.1597571,200.200564 C66.2704506,201.230712 66.6095936,202.705984 65.8613592,203.471174 Z M75.3025151,206.281542 C74.9930474,207.284134 73.553809,207.739857 72.1039724,207.313809 C70.6562556,206.875043 69.7087748,205.700761 70.0012857,204.687571 C70.302275,203.678621 71.7478721,203.20382 73.2083069,203.659543 C74.6539041,204.09619 75.6035048,205.261994 75.3025151,206.281542 Z M86.046947,207.473627 C86.0829806,208.529209 84.8535871,209.404622 83.3316829,209.4237 C81.8013,209.457614 80.563428,208.603398 80.5464708,207.564772 C80.5464708,206.498591 81.7483088,205.631657 83.2786917,205.606221 C84.8005962,205.576546 86.046947,206.424403 86.046947,207.473627 Z M96.6021471,207.069023 C96.7844366,208.099171 95.7267341,209.156872 94.215428,209.438785 C92.7295577,209.710099 91.3539086,209.074206 91.1652603,208.052538 C90.9808515,206.996955 92.0576306,205.939253 93.5413813,205.66582 C95.054807,205.402984 96.4092596,206.021919 96.6021471,207.069023 Z" fill="#161614"></path>
+                </g>
+              </svg>
+             </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="h-8 w-8 text-blue-900" height="24" viewBox="0 0 24 24" width="24">
+                <path d="M0 0h24v24H0V0z" fill="none"></path>
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z"></path>
+              </svg>
+             </a>
+          </li>
+        </ul>
          </div>
        </div>
-   <div class="mt-12">
-     <h1 class=" font-bold text-xl  mb-4   text-blue-900">About me</h1>
+   <section class="mt-12">
+     <div class="flex items-center mb-4">
+       <svg class="h-6 w-6 fill-current text-blue-900" height="24" viewBox="0 0 24 24" width="24">
+         <g fill="none">
+           <path d="M0 0h24v24H0V0z"></path>
+           <path d="M0 0h24v24H0V0z" opacity=".87"></path>
+         </g>
+         <path d="M11 7h2v2h-2zm1 10c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .55.45 1 1 1zm0-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
+       </svg>
+     <h1 class=" font-bold text-xl ml-2   text-blue-900">About me</h1>
+     </div>
      <p class="tracking-wider text-gray-800 leading-loose">
        My passion is making ideas come to life, be it working solo, as part of a team or leading a team of fellow developers.
 
        Throughout my 5 years of development experience, I worked as a freelancer building products from the ground up or implementing new features. Also relevant to my set of skills is that. My go-to technologies are Laravel and Vue.js, and I have completed a wide range of projects using them. Those are not the only two libraries/frameworks I'm familiar with though,
        and I'm always happy to learn new skill to find the best solutions for a problem. I consider myself creative and hardworking, as my stats show. If you liked my profile so far, drop me a message and we'll discuss how I can be useful to your project.
      </p>
-    </div>
-   <div class="mt-12">
-     <h1 class=" font-bold text-xl mb-8  text-blue-900">My Skills</h1>
+    </section>
+   <section class="mt-12">
+     <div class="flex items-center mb-8 ">
+       <svg class="h-6 w-6 fill-current text-blue-900" height="24" viewBox="0 0 24 24" width="24">
+         <path d="M11 21h-1l1-7H7.5c-.58 0-.57-.32-.38-.66.19-.34.05-.08.07-.12C8.48 10.94 10.42 7.54 13 3h1l-1 7h3.5c.49 0 .56.33.47.51l-.07.15C12.96 17.55 11 21 11 21z"></path>
+       </svg>
+       <h1 class=" font-bold text-xl ml-2  text-blue-900">My Skills</h1>
+
+     </div>
      <ul class="inline-flex items-center space-x-4 text-lg font-bold text-black">
        <li>
          <svg class="h-8 w-8"  width="256px" height="135px" viewBox="0 0 256 135" version="1.1" preserveAspectRatio="xMidYMid">
@@ -170,8 +211,15 @@
            </g>
          </svg></li>
      </ul>
-   </div> <div class="mt-12">
-     <h1 class=" font-bold text-xl  pb-4   text-blue-900">Portfolio</h1>
+   </section>
+   <section class="mt-12">
+     <div class="flex items-center mb-8 ">
+       <svg class="w-6 h-6 fill-current text-blue-900" height="24" viewBox="0 0 24 24" width="24">
+         <path d="M0 0h24v24H0V0z" fill="none"></path>
+         <path d="M20.54 5.23l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.16.55L3.46 5.23C3.17 5.57 3 6.02 3 6.5V19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.48-.17-.93-.46-1.27zm-8.89 11.92L6.5 12H10v-2h4v2h3.5l-5.15 5.15c-.19.19-.51.19-.7 0zM5.12 5l.81-1h12l.94 1H5.12z"></path>
+       </svg>
+       <h1 class=" font-bold text-xl ml-2  text-blue-900">Portfolio</h1>
+     </div>
    <section class="space-y-8">
      <div class="grid grid-cols-2 gap-4">
        <img class="h-52 object-cover w-full rounded" src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80" alt="">
@@ -195,9 +243,9 @@
        </div>
      </div>
    </section>
-   </div>
+   </section>
    <section class="my-12 ">
-   <h1 class=" font-bold text-xl mb-4 text-blue-900 ">Articles</h1>
+     <h1 class=" font-bold text-xl mb-4 text-blue-900 ">Articles</h1>
      <div class="divide-y divide-dotted text-gray-600 divide-blue-900 divide-y-16 space-y-4">
        <article class="">
         <div class="flex items-center justify-between mb-4">
