@@ -1,10 +1,21 @@
 <template>
-<div class="container mx-auto  px-40 w-full bg-yellow-100 text-semibold py-4 text-blue-800 shadow h-14 text-center  space-x-12">
-   <nuxt-link to="/">Home</nuxt-link>
-   <nuxt-link to="/portfolio">Portfolio</nuxt-link>
-   <nuxt-link to="/blog">Blog</nuxt-link>
-   <nuxt-link to="/resume">Resume</nuxt-link>
-  <div class="hidden"></div>
+<div>
+  <div class="sm:container sm:mx-auto invisible sm:visible
+  sm:px-40 w-full bg-yellow-100
+  text-semibold sm:py-4 text-blue-800
+  shadow sm:h-14 sm:text-center
+    space-x-12">
+    <nuxt-link to="/">Home</nuxt-link>
+    <nuxt-link to="/portfolio">Portfolio</nuxt-link>
+    <nuxt-link to="/blog">Blog</nuxt-link>
+    <nuxt-link to="/resume">Resume</nuxt-link>
+  </div>
+  <div class="visible shadow text-blue-900 flex items-center -mt-4 pb-4 space-x-4 justify-center sm:hidden ">
+    <nuxt-link to="/">Home</nuxt-link>
+    <nuxt-link to="/portfolio">Portfolio</nuxt-link>
+    <nuxt-link to="/blog">Blog</nuxt-link>
+    <nuxt-link to="/resume">Resume</nuxt-link>
+  </div>
 
 </div>
 </template>
