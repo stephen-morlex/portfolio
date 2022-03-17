@@ -18,7 +18,7 @@
          </div>
        </div>
    <div class="mt-12">
-     <h1 class=" font-semibold text-xl underline pb-4   text-blue-900">About me</h1>
+     <h1 class=" font-bold text-xl  mb-4   text-blue-900">About me</h1>
      <p class="tracking-wider text-gray-800 leading-loose">
        My passion is making ideas come to life, be it working solo, as part of a team or leading a team of fellow developers.
 
@@ -172,20 +172,77 @@
      </ul>
    </div> <div class="mt-12">
      <h1 class=" font-bold text-xl  pb-4   text-blue-900">Portfolio</h1>
-   <section>
+   <section class="space-y-8">
      <div class="grid grid-cols-2 gap-4">
-       <img class="h-52 object-cover w-52 rounded-md" src="~/assets/dp.png" alt="">
-       <div>
-         <h1 class="font-semibold text-xl underline pb-">lorem ipsum dolor sit ametr</h1>
-         <p>lorem ipsum dolor sit amet, consectetur sit amet, consectetur</p>
+       <img class="h-52 object-cover w-full rounded" src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80" alt="">
+       <div class="text-gray-600">
+         <h1 class="font-semibold text-2xl  mb-4">lorem ipsum dolor sit ametr</h1>
+         <p class="tracking-wider  leading-loose">I'm familiar with though, and I'm always happy to learn new skill to find the best solutions for a problem. I consider myself creative and hardworking, as my stats show. If you liked my profile so far, drop me a message and we'll discuss how I can be useful to your project.</p>
+       </div>
+     </div>
+     <div class="grid grid-cols-2 gap-4">
+       <img class="h-52 object-cover w-full rounded" src="https://images.unsplash.com/photo-1640622308238-70e5f22fe0be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60" alt="">
+       <div class="text-gray-600">
+         <h1 class="font-semibold text-2xl  mb-4">lorem ipsum dolor sit ametr</h1>
+         <p class="tracking-wider  leading-loose">I'm familiar with though, and I'm always happy to learn new skill to find the best solutions for a problem. I consider myself creative and hardworking, as my stats show. If you liked my profile so far, drop me a message and we'll discuss how I can be useful to your project.</p>
+       </div>
+     </div>
+     <div class="grid grid-cols-2 gap-4">
+       <img class="h-52 object-cover w-full rounded" src="https://images.unsplash.com/photo-1647296020397-8ef9f36afe99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60" alt="">
+       <div class="text-gray-600">
+         <h1 class="font-semibold text-2xl mb-4">lorem ipsum dolor sit ametr</h1>
+         <p class="tracking-wider leading-loose">I'm familiar with though, and I'm always happy to learn new skill to find the best solutions for a problem. I consider myself creative and hardworking, as my stats show. If you liked my profile so far, drop me a message and we'll discuss how I can be useful to your project.</p>
        </div>
      </div>
    </section>
    </div>
-   <div class="mt-12">
-   <h1 class=" font-semibold text-xl underline pb-4   text-blue-900">Articles</h1>
+   <section class="my-12 ">
+   <h1 class=" font-bold text-xl mb-4 text-blue-900 ">Articles</h1>
+     <div class="divide-y divide-dotted text-gray-600 divide-blue-900 divide-y-16 space-y-4">
+       <article class="">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="font-semibold text-2xl ">
+            <a href="#" class="hover-underline hover:text-blue-900 ">I'm always happy to learn new skill to find the best solutions</a>
+          </h3>
+          <span class="">
+            5 mins read
+          </span>
+        </div>
+         <div>
+              <p class="tracking-wider leading-loose">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
- </div>
+              </p>
+         </div>
+       </article>
+       <article class="">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="font-semibold text-2xl ">
+            <a href="#" class="hover-underline hover:text-blue-900 ">I'm always happy to learn new skill to find the best solutions</a>
+          </h3>
+          <span class="">
+            5 mins read
+          </span>
+        </div>
+         <div>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </div>
+       </article>
+       <article class="">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="font-semibold text-2xl ">
+            <a href="#" class="hover-underline hover:text-blue-900 ">I'm always happy to learn new skill to find the best solutions</a>
+          </h3>
+          <span class="">
+            5 mins read
+          </span>
+        </div>
+         <div>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </div>
+       </article>
+     </div>
+ </section>
  </div>
 </template>
 
