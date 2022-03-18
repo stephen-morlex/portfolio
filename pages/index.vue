@@ -19,7 +19,7 @@
          mt-4 text-blue-900 space-x-2">
           <li>
             <a href="https://twitter.com/stephen_morlex" target="_blank">
-                  <svg class="h-10 w-10 "  id="Layer_1" x="0px" y="0px" viewBox="0 0 500 500"  xml:space="preserve">
+                  <svg class="h-10 w-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-125  duration-300  "  id="Layer_1" x="0px" y="0px" viewBox="0 0 500 500"  xml:space="preserve">
                     <path id="XMLID_1_" class="st0" d="M425,141.5c-12.9,5.7-26.7,9.6-41.2,11.3c14.8-8.9,26.2-23,31.6-39.7  c-13.9,8.2-29.2,14.2-45.6,17.4c-13.1-14-31.8-22.7-52.4-22.7c-39.7,0-71.8,32.2-71.8,71.8c0,5.6,0.6,11.1,1.9,16.4  c-59.7-3-112.6-31.6-148-75c-6.2,10.6-9.7,22.9-9.7,36.1c0,24.9,12.7,46.9,31.9,59.8c-11.8-0.4-22.8-3.6-32.5-9c0,0.3,0,0.6,0,0.9  c0,34.8,24.8,63.8,57.6,70.4c-6,1.6-12.4,2.5-18.9,2.5c-4.6,0-9.1-0.5-13.5-1.3c9.1,28.5,35.7,49.3,67.1,49.9  c-24.6,19.3-55.5,30.7-89.2,30.7c-5.8,0-11.5-0.3-17.1-1c31.8,20.4,69.5,32.3,110.1,32.3c132.1,0,204.3-109.4,204.3-204.3  c0-3.1-0.1-6.2-0.2-9.3C403.2,168.5,415.4,155.9,425,141.5z"></path>
                </svg>
              </a>
@@ -263,7 +263,6 @@
          <div>
               <p class="tracking-wider leading-loose">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
               </p>
          </div>
        </article>
