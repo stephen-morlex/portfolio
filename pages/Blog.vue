@@ -1,5 +1,5 @@
 <template>
-<div class="px-16 ">
+<div class="px-6 ">
   <section class="my-12 ">
     <h1 class=" font-bold text-4xl mb-4 text-blue-900 ">Articles</h1>
     <div class="divide-y divide-dotted text-gray-600 divide-blue-900 divide-y-16 space-y-4">

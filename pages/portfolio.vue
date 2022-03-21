@@ -1,6 +1,6 @@
 <template >
   <!--   Portfolio section-->
-  <section class="mt-12">
+  <section class="mt-12 p-6">
     <div class="flex items-center mb-8 ">
       <svg class="w-8 h-8 fill-current text-blue-900" height="24" viewBox="0 0 24 24" width="24">
         <path d="M0 0h24v24H0V0z" fill="none"></path>
