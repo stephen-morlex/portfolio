@@ -306,7 +306,7 @@ export default Vue.extend({
   mounted: function(){
     // Hero Layout Timeline
     gsap.fromTo(".hello", {opacity: 0, x: 700, scale:20}, {opacity: 1, duration:2, scale:1 , x:0, ease:'none'})
-    let tl = gsap.timeline({repeatDelay: 2});
+    let tl = gsap.timeline({repeatDelay: 1});
     tl.fromTo("#hero-cover", {opacity: 0, x: -200}, {opacity: 1, duration: 2, x:0, ease:"step(4)"})
     tl.fromTo(".my-name", {opacity: 0, x: 700,  scale:10}, {opacity: 1, duration: 3, x:0, scale:1, ease:"slow(0.7, 0.7, false)"})
     tl.fromTo(".my-title", {opacity: 0, x: 700,  scale:10}, {opacity: 1, duration: 3, x:0, scale:1, ease:'easeIn'})
@@ -319,7 +319,7 @@ export default Vue.extend({
     let tl2 = gsap.timeline({repeatDelay:2})
     tl.fromTo(".skill-title", {opacity: 0, x: -200, scale:20}, {opacity: 1, duration:2, scale:1 , x:0, ease:'easeInOut'})
     let tl_icon = gsap.timeline({repeatDelay:2})
-    tl_icon.fromTo(".skill-icon", {opacity: 0, x: -200, scale:20}, {opacity: 1, duration:2, scale:1 , x:0, ease:'elastic'})
+    tl_icon.fromTo(".skill-icon", {opacity: 0, x: -200, scale:20}, {opacity: 1, duration:2, scale:1 , x:0, ease:"slow(0.7, 0.7, false)"})
 
 
     // tl.fromTo(".desc", {opacity: 0, x: -200}, {opacity: 1, duration:2, x:0 , ease:'easeOut'})
