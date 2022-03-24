@@ -306,7 +306,22 @@ export default Vue.extend({
   mounted: function(){
     // Hero Layout Timeline
     gsap.fromTo(".hello", {opacity: 0, x: 700, scale:20}, {opacity: 1, duration:2, scale:1 , x:0, ease:'none'})
-    let tl = gsap.timeline({repeatDelay: 1});
+    let tl = gsap.timeline({repeatDelay: 1,
+      // yes, we can add it to an entire timeline!
+      scrollTrigger: {
+        trigger: ".container",
+        pin: true,   // pin the trigger element while active
+        start: "top top", // when the top of the trigger hits the top of the viewport
+        end: "+=500", // end after scrolling 500px beyond the start
+        scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+        snap: {
+          snapTo: "labels", // snap to the closest label in the timeline
+          duration: {min: 0.2, max: 3}, // the snap animation should be at least 0.2 seconds, but no more than 3 seconds (determined by velocity)
+          delay: 0.2, // wait 0.2 seconds from the last scroll event before doing the snapping
+          ease: "power1.inOut" // the ease of the snap animation ("power3" by default)
+        }
+      }
+    });
     tl.fromTo("#hero-cover", {opacity: 0, x: -200}, {opacity: 1, duration: 2, x:0, ease:"step(4)"})
     tl.fromTo(".my-name", {opacity: 0, x: 700,  scale:10}, {opacity: 1, duration: 3, x:0, scale:1, ease:"slow(0.7, 0.7, false)"})
     tl.fromTo(".my-title", {opacity: 0, x: 700,  scale:10}, {opacity: 1, duration: 3, x:0, scale:1, ease:'easeIn'})
