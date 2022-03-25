@@ -59,7 +59,7 @@
      <p class="tracking-wider text-xl text-justify text-gray-800 leading-loose desc">
        My passion is making ideas come to life, be it working solo, as part of a team or leading a team of fellow developers.
 
-       Throughout my 5 years of development experience, I worked as a freelancer building products from the ground up or implementing new features. Also relevant to my set of skills is that. My go-to technologies are Laravel and Vue.js, and I have completed a wide range of projects using them. Those are not the only two libraries/frameworks I'm familiar with though,
+       Throughout my 5 years of development experience, I worked as a freelancer building products from the ground up or implementing new features. Also relevant to my set of skills is that. I have completed a wide range of projects using them. Those are not the only two libraries/frameworks I'm familiar with though,
        and I'm always happy to learn new skill to find the best solutions for a problem. I consider myself creative and hardworking, as my stats show. If you liked my profile so far, drop me a message and we'll discuss how I can be useful to your project.
      </p>
     </section>
